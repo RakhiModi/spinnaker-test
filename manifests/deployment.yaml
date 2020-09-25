@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: k8s-demo
-        image: gcr.io/searce-playground/spinnaker-rm 
+        image: gcr.io/searce-playground/spinnaker-rm:latest 
         ports:
         - name: nodejs-port
           containerPort: 80
